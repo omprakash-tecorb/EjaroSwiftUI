@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+    <array>
+        <string>Century Gothic-Bold.ttf</string>
+        <string>Century Gothic-Regular.ttf</string>
+        <string>Neo Sans Arabic-Regular.ttf</string>
+        <string>Neo Sans Arabic-Bold.ttf</string>
+        <string>Neo Sans Arabic-Medium.ttf</string>
+        <string>Neo Sans Std-Bold.ttf</string>
+        <string>Neo Sans Std-Regular.ttf</string>
+        <string>Neo Sans Std-Medium.otf</string>
+    </array>
+</dict>
+</plist>

@@ -14,6 +14,36 @@
 		18190F5F28BCCF56003C14E0 /* EjaroSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F5E28BCCF56003C14E0 /* EjaroSwiftUITests.swift */; };
 		18190F6928BCCF56003C14E0 /* EjaroSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F6828BCCF56003C14E0 /* EjaroSwiftUIUITests.swift */; };
 		18190F6B28BCCF56003C14E0 /* EjaroSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F6A28BCCF56003C14E0 /* EjaroSwiftUIUITestsLaunchTests.swift */; };
+		18190F7828BCDD96003C14E0 /* SelectLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F7728BCDD96003C14E0 /* SelectLanguageView.swift */; };
+		18190F7B28BCE8BE003C14E0 /* SeemlessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F7A28BCE8BE003C14E0 /* SeemlessView.swift */; };
+		18190F7D28BCF1B0003C14E0 /* CompetitiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F7C28BCF1AF003C14E0 /* CompetitiveView.swift */; };
+		18190F7F28BCF7CF003C14E0 /* WiderAvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F7E28BCF7CF003C14E0 /* WiderAvailabilityView.swift */; };
+		18190F8128BCF8F6003C14E0 /* EasyAndSecureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F8028BCF8F6003C14E0 /* EasyAndSecureView.swift */; };
+		18190F8328BCFA31003C14E0 /* SafeReliableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F8228BCFA31003C14E0 /* SafeReliableView.swift */; };
+		18190F9B28BDD1C2003C14E0 /* 22.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9628BDD1C2003C14E0 /* 22.gif */; };
+		18190F9C28BDD1C2003C14E0 /* 33.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9728BDD1C2003C14E0 /* 33.gif */; };
+		18190F9D28BDD1C2003C14E0 /* 55.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9828BDD1C2003C14E0 /* 55.gif */; };
+		18190F9E28BDD1C2003C14E0 /* 44.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9928BDD1C2003C14E0 /* 44.gif */; };
+		18190F9F28BDD1C2003C14E0 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9A28BDD1C2003C14E0 /* 11.gif */; };
+		1898CD8A28BDD931009DEA49 /* Neo Sans Std-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */; };
+		1898CD8B28BDD931009DEA49 /* Century Gothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */; };
+		1898CD8C28BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8428BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf */; };
+		1898CD8D28BDD931009DEA49 /* Neo Sans Arabic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8528BDD931009DEA49 /* Neo Sans Arabic-Regular.ttf */; };
+		1898CD8E28BDD931009DEA49 /* Neo Sans Std-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8628BDD931009DEA49 /* Neo Sans Std-Medium.otf */; };
+		1898CD8F28BDD931009DEA49 /* Century Gothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8728BDD931009DEA49 /* Century Gothic-Regular.ttf */; };
+		1898CD9028BDD931009DEA49 /* Neo Sans Std-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8828BDD931009DEA49 /* Neo Sans Std-Regular.ttf */; };
+		1898CD9128BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */; };
+		1898CD9428BDF4BB009DEA49 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898CD9328BDF4BB009DEA49 /* ScrollView.swift */; };
+		1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898CD9528BE0D9A009DEA49 /* LoginView.swift */; };
+		18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308428BE4E7700BBB618 /* BackButton.swift */; };
+		18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */; };
+		18F1308928BE4E8600BBB618 /* Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308828BE4E8600BBB618 /* Navigate.swift */; };
+		18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308A28BE4E8C00BBB618 /* Validation.swift */; };
+		18F1308D28BE4E9400BBB618 /* gallerypicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308C28BE4E9400BBB618 /* gallerypicker.swift */; };
+		18F1308F28BE7DB200BBB618 /* WalkThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308E28BE7DB200BBB618 /* WalkThroughView.swift */; };
+		2493EBF708603F6D52B92167 /* Pods_EjaroSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371799B22668C0D47271EF62 /* Pods_EjaroSwiftUI.framework */; };
+		6BFB8800E7B342E25869ED5D /* Pods_EjaroSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D631CC8321D736FCAC711D /* Pods_EjaroSwiftUITests.framework */; };
+		D006C9CC1C527326289582B8 /* Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1AA020FC28B84E0F24FA5B /* Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +74,43 @@
 		18190F6428BCCF56003C14E0 /* EjaroSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjaroSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18190F6828BCCF56003C14E0 /* EjaroSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjaroSwiftUIUITests.swift; sourceTree = "<group>"; };
 		18190F6A28BCCF56003C14E0 /* EjaroSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjaroSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18190F7728BCDD96003C14E0 /* SelectLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageView.swift; sourceTree = "<group>"; };
+		18190F7A28BCE8BE003C14E0 /* SeemlessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeemlessView.swift; sourceTree = "<group>"; };
+		18190F7C28BCF1AF003C14E0 /* CompetitiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitiveView.swift; sourceTree = "<group>"; };
+		18190F7E28BCF7CF003C14E0 /* WiderAvailabilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiderAvailabilityView.swift; sourceTree = "<group>"; };
+		18190F8028BCF8F6003C14E0 /* EasyAndSecureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAndSecureView.swift; sourceTree = "<group>"; };
+		18190F8228BCFA31003C14E0 /* SafeReliableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeReliableView.swift; sourceTree = "<group>"; };
+		18190F9628BDD1C2003C14E0 /* 22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 22.gif; sourceTree = "<group>"; };
+		18190F9728BDD1C2003C14E0 /* 33.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 33.gif; sourceTree = "<group>"; };
+		18190F9828BDD1C2003C14E0 /* 55.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 55.gif; sourceTree = "<group>"; };
+		18190F9928BDD1C2003C14E0 /* 44.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 44.gif; sourceTree = "<group>"; };
+		18190F9A28BDD1C2003C14E0 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Std-Bold.ttf"; sourceTree = "<group>"; };
+		1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic-Bold.ttf"; sourceTree = "<group>"; };
+		1898CD8428BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Arabic-Bold.ttf"; sourceTree = "<group>"; };
+		1898CD8528BDD931009DEA49 /* Neo Sans Arabic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Arabic-Regular.ttf"; sourceTree = "<group>"; };
+		1898CD8628BDD931009DEA49 /* Neo Sans Std-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Std-Medium.otf"; sourceTree = "<group>"; };
+		1898CD8728BDD931009DEA49 /* Century Gothic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic-Regular.ttf"; sourceTree = "<group>"; };
+		1898CD8828BDD931009DEA49 /* Neo Sans Std-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Std-Regular.ttf"; sourceTree = "<group>"; };
+		1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Arabic-Medium.ttf"; sourceTree = "<group>"; };
+		1898CD9228BDE359009DEA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1898CD9328BDF4BB009DEA49 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		1898CD9528BE0D9A009DEA49 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		18F1308428BE4E7700BBB618 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCustome.swift; sourceTree = "<group>"; };
+		18F1308828BE4E8600BBB618 /* Navigate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigate.swift; sourceTree = "<group>"; };
+		18F1308A28BE4E8C00BBB618 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		18F1308C28BE4E9400BBB618 /* gallerypicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gallerypicker.swift; sourceTree = "<group>"; };
+		18F1308E28BE7DB200BBB618 /* WalkThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughView.swift; sourceTree = "<group>"; };
+		28FCC48944932ED87DC1334C /* Pods-EjaroSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUITests/Pods-EjaroSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		371799B22668C0D47271EF62 /* Pods_EjaroSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EjaroSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3829248A459FAB0B6D41E075 /* Pods-EjaroSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUI/Pods-EjaroSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		3A1AA020FC28B84E0F24FA5B /* Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448C20F3439C79C2D299C41C /* Pods-EjaroSwiftUI-EjaroSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUI-EjaroSwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUI-EjaroSwiftUIUITests/Pods-EjaroSwiftUI-EjaroSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49D631CC8321D736FCAC711D /* Pods_EjaroSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EjaroSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903A5FCFD9B12B531B61884B /* Pods-EjaroSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUI/Pods-EjaroSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		D148ACFEF9BF8C2130F11C8F /* Pods-EjaroSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUITests/Pods-EjaroSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8B665621165EEE70B2E57E4 /* Pods-EjaroSwiftUI-EjaroSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUI-EjaroSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUI-EjaroSwiftUIUITests/Pods-EjaroSwiftUI-EjaroSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2493EBF708603F6D52B92167 /* Pods_EjaroSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFB8800E7B342E25869ED5D /* Pods_EjaroSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D006C9CC1C527326289582B8 /* Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +148,8 @@
 				18190F5D28BCCF56003C14E0 /* EjaroSwiftUITests */,
 				18190F6728BCCF56003C14E0 /* EjaroSwiftUIUITests */,
 				18190F4B28BCCF52003C14E0 /* Products */,
+				39F16345E1C06CB83EF23A10 /* Pods */,
+				496431E2801535956931FC4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +166,13 @@
 		18190F4C28BCCF52003C14E0 /* EjaroSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				1898CD9228BDE359009DEA49 /* Info.plist */,
 				18190F4D28BCCF52003C14E0 /* EjaroSwiftUIApp.swift */,
-				18190F4F28BCCF52003C14E0 /* ContentView.swift */,
+				18F1308328BE4E3900BBB618 /* HelpingClass */,
+				18190F7928BCE894003C14E0 /* Views */,
 				18190F5128BCCF55003C14E0 /* Assets.xcassets */,
+				1898CD8128BDD931009DEA49 /* Fonts */,
+				18190F9528BDD1C2003C14E0 /* gif */,
 				18190F5328BCCF55003C14E0 /* Preview Content */,
 			);
 			path = EjaroSwiftUI;
@@ -127,6 +203,85 @@
 			path = EjaroSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		18190F7928BCE894003C14E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18190F4F28BCCF52003C14E0 /* ContentView.swift */,
+				18190F7728BCDD96003C14E0 /* SelectLanguageView.swift */,
+				18190F7A28BCE8BE003C14E0 /* SeemlessView.swift */,
+				18190F7C28BCF1AF003C14E0 /* CompetitiveView.swift */,
+				18190F7E28BCF7CF003C14E0 /* WiderAvailabilityView.swift */,
+				18190F8028BCF8F6003C14E0 /* EasyAndSecureView.swift */,
+				18190F8228BCFA31003C14E0 /* SafeReliableView.swift */,
+				1898CD9328BDF4BB009DEA49 /* ScrollView.swift */,
+				18F1308E28BE7DB200BBB618 /* WalkThroughView.swift */,
+				1898CD9528BE0D9A009DEA49 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18190F9528BDD1C2003C14E0 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				18190F9628BDD1C2003C14E0 /* 22.gif */,
+				18190F9728BDD1C2003C14E0 /* 33.gif */,
+				18190F9828BDD1C2003C14E0 /* 55.gif */,
+				18190F9928BDD1C2003C14E0 /* 44.gif */,
+				18190F9A28BDD1C2003C14E0 /* 11.gif */,
+			);
+			path = gif;
+			sourceTree = "<group>";
+		};
+		1898CD8128BDD931009DEA49 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */,
+				1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */,
+				1898CD8428BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf */,
+				1898CD8528BDD931009DEA49 /* Neo Sans Arabic-Regular.ttf */,
+				1898CD8628BDD931009DEA49 /* Neo Sans Std-Medium.otf */,
+				1898CD8728BDD931009DEA49 /* Century Gothic-Regular.ttf */,
+				1898CD8828BDD931009DEA49 /* Neo Sans Std-Regular.ttf */,
+				1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		18F1308328BE4E3900BBB618 /* HelpingClass */ = {
+			isa = PBXGroup;
+			children = (
+				18F1308C28BE4E9400BBB618 /* gallerypicker.swift */,
+				18F1308A28BE4E8C00BBB618 /* Validation.swift */,
+				18F1308828BE4E8600BBB618 /* Navigate.swift */,
+				18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */,
+				18F1308428BE4E7700BBB618 /* BackButton.swift */,
+			);
+			path = HelpingClass;
+			sourceTree = "<group>";
+		};
+		39F16345E1C06CB83EF23A10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3829248A459FAB0B6D41E075 /* Pods-EjaroSwiftUI.debug.xcconfig */,
+				903A5FCFD9B12B531B61884B /* Pods-EjaroSwiftUI.release.xcconfig */,
+				E8B665621165EEE70B2E57E4 /* Pods-EjaroSwiftUI-EjaroSwiftUIUITests.debug.xcconfig */,
+				448C20F3439C79C2D299C41C /* Pods-EjaroSwiftUI-EjaroSwiftUIUITests.release.xcconfig */,
+				D148ACFEF9BF8C2130F11C8F /* Pods-EjaroSwiftUITests.debug.xcconfig */,
+				28FCC48944932ED87DC1334C /* Pods-EjaroSwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		496431E2801535956931FC4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				371799B22668C0D47271EF62 /* Pods_EjaroSwiftUI.framework */,
+				3A1AA020FC28B84E0F24FA5B /* Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework */,
+				49D631CC8321D736FCAC711D /* Pods_EjaroSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18190F6E28BCCF56003C14E0 /* Build configuration list for PBXNativeTarget "EjaroSwiftUI" */;
 			buildPhases = (
+				FE6E21F86E4953F46D50F79D /* [CP] Check Pods Manifest.lock */,
 				18190F4628BCCF52003C14E0 /* Sources */,
 				18190F4728BCCF52003C14E0 /* Frameworks */,
 				18190F4828BCCF52003C14E0 /* Resources */,
+				ABDDC2219FFCD129ECA2221D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18190F7128BCCF56003C14E0 /* Build configuration list for PBXNativeTarget "EjaroSwiftUITests" */;
 			buildPhases = (
+				729621A9D0B185928CB48C59 /* [CP] Check Pods Manifest.lock */,
 				18190F5628BCCF56003C14E0 /* Sources */,
 				18190F5728BCCF56003C14E0 /* Frameworks */,
 				18190F5828BCCF56003C14E0 /* Resources */,
@@ -169,9 +327,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18190F7428BCCF56003C14E0 /* Build configuration list for PBXNativeTarget "EjaroSwiftUIUITests" */;
 			buildPhases = (
+				BF51A8561B6CD9CC8AE48BD2 /* [CP] Check Pods Manifest.lock */,
 				18190F6028BCCF56003C14E0 /* Sources */,
 				18190F6128BCCF56003C14E0 /* Frameworks */,
 				18190F6228BCCF56003C14E0 /* Resources */,
+				378E257A6BA85BCBE7EC63A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +391,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1898CD8F28BDD931009DEA49 /* Century Gothic-Regular.ttf in Resources */,
+				18190F9D28BDD1C2003C14E0 /* 55.gif in Resources */,
+				1898CD8C28BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf in Resources */,
+				1898CD8E28BDD931009DEA49 /* Neo Sans Std-Medium.otf in Resources */,
+				1898CD8D28BDD931009DEA49 /* Neo Sans Arabic-Regular.ttf in Resources */,
+				1898CD9028BDD931009DEA49 /* Neo Sans Std-Regular.ttf in Resources */,
+				1898CD8A28BDD931009DEA49 /* Neo Sans Std-Bold.ttf in Resources */,
+				1898CD8B28BDD931009DEA49 /* Century Gothic-Bold.ttf in Resources */,
+				18190F9C28BDD1C2003C14E0 /* 33.gif in Resources */,
+				18190F9E28BDD1C2003C14E0 /* 44.gif in Resources */,
+				18190F9F28BDD1C2003C14E0 /* 11.gif in Resources */,
 				18190F5528BCCF55003C14E0 /* Preview Assets.xcassets in Resources */,
+				1898CD9128BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf in Resources */,
+				18190F9B28BDD1C2003C14E0 /* 22.gif in Resources */,
 				18190F5228BCCF55003C14E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,13 +425,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		378E257A6BA85BCBE7EC63A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EjaroSwiftUI-EjaroSwiftUIUITests/Pods-EjaroSwiftUI-EjaroSwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EjaroSwiftUI-EjaroSwiftUIUITests/Pods-EjaroSwiftUI-EjaroSwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EjaroSwiftUI-EjaroSwiftUIUITests/Pods-EjaroSwiftUI-EjaroSwiftUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729621A9D0B185928CB48C59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EjaroSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABDDC2219FFCD129ECA2221D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EjaroSwiftUI/Pods-EjaroSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EjaroSwiftUI/Pods-EjaroSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EjaroSwiftUI/Pods-EjaroSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF51A8561B6CD9CC8AE48BD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EjaroSwiftUI-EjaroSwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE6E21F86E4953F46D50F79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EjaroSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18190F4628BCCF52003C14E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18190F8128BCF8F6003C14E0 /* EasyAndSecureView.swift in Sources */,
 				18190F5028BCCF52003C14E0 /* ContentView.swift in Sources */,
+				18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */,
+				18190F7B28BCE8BE003C14E0 /* SeemlessView.swift in Sources */,
+				18190F8328BCFA31003C14E0 /* SafeReliableView.swift in Sources */,
+				18190F7828BCDD96003C14E0 /* SelectLanguageView.swift in Sources */,
+				18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */,
+				18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */,
 				18190F4E28BCCF52003C14E0 /* EjaroSwiftUIApp.swift in Sources */,
+				18190F7D28BCF1B0003C14E0 /* CompetitiveView.swift in Sources */,
+				18F1308D28BE4E9400BBB618 /* gallerypicker.swift in Sources */,
+				18F1308F28BE7DB200BBB618 /* WalkThroughView.swift in Sources */,
+				18190F7F28BCF7CF003C14E0 /* WiderAvailabilityView.swift in Sources */,
+				1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */,
+				18F1308928BE4E8600BBB618 /* Navigate.swift in Sources */,
+				1898CD9428BDF4BB009DEA49 /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +701,7 @@
 		};
 		18190F6F28BCCF56003C14E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3829248A459FAB0B6D41E075 /* Pods-EjaroSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +710,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EjaroSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EjaroSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -439,6 +731,7 @@
 		};
 		18190F7028BCCF56003C14E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903A5FCFD9B12B531B61884B /* Pods-EjaroSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,6 +740,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EjaroSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EjaroSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,6 +761,7 @@
 		};
 		18190F7228BCCF56003C14E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D148ACFEF9BF8C2130F11C8F /* Pods-EjaroSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +781,7 @@
 		};
 		18190F7328BCCF56003C14E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FCC48944932ED87DC1334C /* Pods-EjaroSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +801,7 @@
 		};
 		18190F7528BCCF56003C14E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B665621165EEE70B2E57E4 /* Pods-EjaroSwiftUI-EjaroSwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +819,7 @@
 		};
 		18190F7628BCCF56003C14E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448C20F3439C79C2D299C41C /* Pods-EjaroSwiftUI-EjaroSwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
