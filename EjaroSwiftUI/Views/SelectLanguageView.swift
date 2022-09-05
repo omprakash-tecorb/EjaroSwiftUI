@@ -21,7 +21,7 @@ struct SelectLanguageView: View {
                 .padding(.bottom, 8)
             VStack
             {
-                NavigationLink(destination: ScrollView())
+                NavigationLink(destination: ScrollLeftRightView())
                 {
                     Text("العربية  ")
                         .padding([.leading,.trailing], 140)
@@ -31,7 +31,7 @@ struct SelectLanguageView: View {
                         .foregroundColor(Color.black)
                 }
                 
-                NavigationLink(destination: ScrollView())
+                NavigationLink(destination: ScrollLeftRightView())
                 {
                     Text("English")
                         .padding([.leading,.trailing], 140)

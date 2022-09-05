@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180AA0D928C36CD000A22717 /* Registration3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AA0D828C36CD000A22717 /* Registration3.swift */; };
 		18190F4E28BCCF52003C14E0 /* EjaroSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F4D28BCCF52003C14E0 /* EjaroSwiftUIApp.swift */; };
 		18190F5028BCCF52003C14E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18190F4F28BCCF52003C14E0 /* ContentView.swift */; };
 		18190F5228BCCF55003C14E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18190F5128BCCF55003C14E0 /* Assets.xcassets */; };
@@ -33,14 +34,16 @@
 		1898CD8F28BDD931009DEA49 /* Century Gothic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8728BDD931009DEA49 /* Century Gothic-Regular.ttf */; };
 		1898CD9028BDD931009DEA49 /* Neo Sans Std-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8828BDD931009DEA49 /* Neo Sans Std-Regular.ttf */; };
 		1898CD9128BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */; };
-		1898CD9428BDF4BB009DEA49 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898CD9328BDF4BB009DEA49 /* ScrollView.swift */; };
 		1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898CD9528BE0D9A009DEA49 /* LoginView.swift */; };
 		18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308428BE4E7700BBB618 /* BackButton.swift */; };
 		18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */; };
 		18F1308928BE4E8600BBB618 /* Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308828BE4E8600BBB618 /* Navigate.swift */; };
 		18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308A28BE4E8C00BBB618 /* Validation.swift */; };
 		18F1308D28BE4E9400BBB618 /* gallerypicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308C28BE4E9400BBB618 /* gallerypicker.swift */; };
-		18F1308F28BE7DB200BBB618 /* WalkThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308E28BE7DB200BBB618 /* WalkThroughView.swift */; };
+		18F1309128BF2D5800BBB618 /* ScrollLeftRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1309028BF2D5800BBB618 /* ScrollLeftRightView.swift */; };
+		18F1309328C086B900BBB618 /* RegistrationView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1309228C086B900BBB618 /* RegistrationView1.swift */; };
+		18F1309528C0875E00BBB618 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1309428C0875E00BBB618 /* HexColor.swift */; };
+		18F1309728C09F4B00BBB618 /* RegistrationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1309628C09F4B00BBB618 /* RegistrationView2.swift */; };
 		2493EBF708603F6D52B92167 /* Pods_EjaroSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 371799B22668C0D47271EF62 /* Pods_EjaroSwiftUI.framework */; };
 		6BFB8800E7B342E25869ED5D /* Pods_EjaroSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D631CC8321D736FCAC711D /* Pods_EjaroSwiftUITests.framework */; };
 		D006C9CC1C527326289582B8 /* Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1AA020FC28B84E0F24FA5B /* Pods_EjaroSwiftUI_EjaroSwiftUIUITests.framework */; };
@@ -64,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		180AA0D828C36CD000A22717 /* Registration3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration3.swift; sourceTree = "<group>"; };
 		18190F4A28BCCF52003C14E0 /* EjaroSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjaroSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18190F4D28BCCF52003C14E0 /* EjaroSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjaroSwiftUIApp.swift; sourceTree = "<group>"; };
 		18190F4F28BCCF52003C14E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,14 +98,16 @@
 		1898CD8828BDD931009DEA49 /* Neo Sans Std-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Std-Regular.ttf"; sourceTree = "<group>"; };
 		1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Arabic-Medium.ttf"; sourceTree = "<group>"; };
 		1898CD9228BDE359009DEA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1898CD9328BDF4BB009DEA49 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
 		1898CD9528BE0D9A009DEA49 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		18F1308428BE4E7700BBB618 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCustome.swift; sourceTree = "<group>"; };
 		18F1308828BE4E8600BBB618 /* Navigate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigate.swift; sourceTree = "<group>"; };
 		18F1308A28BE4E8C00BBB618 /* Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
 		18F1308C28BE4E9400BBB618 /* gallerypicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gallerypicker.swift; sourceTree = "<group>"; };
-		18F1308E28BE7DB200BBB618 /* WalkThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughView.swift; sourceTree = "<group>"; };
+		18F1309028BF2D5800BBB618 /* ScrollLeftRightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLeftRightView.swift; sourceTree = "<group>"; };
+		18F1309228C086B900BBB618 /* RegistrationView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView1.swift; sourceTree = "<group>"; };
+		18F1309428C0875E00BBB618 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		18F1309628C09F4B00BBB618 /* RegistrationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView2.swift; sourceTree = "<group>"; };
 		28FCC48944932ED87DC1334C /* Pods-EjaroSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUITests/Pods-EjaroSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		371799B22668C0D47271EF62 /* Pods_EjaroSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EjaroSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3829248A459FAB0B6D41E075 /* Pods-EjaroSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EjaroSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-EjaroSwiftUI/Pods-EjaroSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,9 +219,11 @@
 				18190F7E28BCF7CF003C14E0 /* WiderAvailabilityView.swift */,
 				18190F8028BCF8F6003C14E0 /* EasyAndSecureView.swift */,
 				18190F8228BCFA31003C14E0 /* SafeReliableView.swift */,
-				1898CD9328BDF4BB009DEA49 /* ScrollView.swift */,
-				18F1308E28BE7DB200BBB618 /* WalkThroughView.swift */,
+				18F1309028BF2D5800BBB618 /* ScrollLeftRightView.swift */,
 				1898CD9528BE0D9A009DEA49 /* LoginView.swift */,
+				18F1309228C086B900BBB618 /* RegistrationView1.swift */,
+				18F1309628C09F4B00BBB618 /* RegistrationView2.swift */,
+				180AA0D828C36CD000A22717 /* Registration3.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +263,7 @@
 				18F1308828BE4E8600BBB618 /* Navigate.swift */,
 				18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */,
 				18F1308428BE4E7700BBB618 /* BackButton.swift */,
+				18F1309428C0875E00BBB618 /* HexColor.swift */,
 			);
 			path = HelpingClass;
 			sourceTree = "<group>";
@@ -533,22 +542,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F1309528C0875E00BBB618 /* HexColor.swift in Sources */,
 				18190F8128BCF8F6003C14E0 /* EasyAndSecureView.swift in Sources */,
+				18F1309728C09F4B00BBB618 /* RegistrationView2.swift in Sources */,
 				18190F5028BCCF52003C14E0 /* ContentView.swift in Sources */,
+				18F1309128BF2D5800BBB618 /* ScrollLeftRightView.swift in Sources */,
 				18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */,
 				18190F7B28BCE8BE003C14E0 /* SeemlessView.swift in Sources */,
 				18190F8328BCFA31003C14E0 /* SafeReliableView.swift in Sources */,
 				18190F7828BCDD96003C14E0 /* SelectLanguageView.swift in Sources */,
 				18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */,
 				18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */,
+				18F1309328C086B900BBB618 /* RegistrationView1.swift in Sources */,
 				18190F4E28BCCF52003C14E0 /* EjaroSwiftUIApp.swift in Sources */,
+				180AA0D928C36CD000A22717 /* Registration3.swift in Sources */,
 				18190F7D28BCF1B0003C14E0 /* CompetitiveView.swift in Sources */,
 				18F1308D28BE4E9400BBB618 /* gallerypicker.swift in Sources */,
-				18F1308F28BE7DB200BBB618 /* WalkThroughView.swift in Sources */,
 				18190F7F28BCF7CF003C14E0 /* WiderAvailabilityView.swift in Sources */,
 				1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */,
 				18F1308928BE4E8600BBB618 /* Navigate.swift in Sources */,
-				1898CD9428BDF4BB009DEA49 /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

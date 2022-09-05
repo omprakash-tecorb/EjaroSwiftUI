@@ -20,9 +20,9 @@ struct NavBackButton: View {
         Button {
             dismiss()
         } label: {
-            Image("back_icon_second")
+            Image("back_arrow_auth")
                 
-            Text("Go Back")
+            Text("")
                   .foregroundColor(Color.red)
         }
     }
