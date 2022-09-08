@@ -20,6 +20,7 @@ struct CompetitiveView: View {
 // MARK: - GIF
             
             SwiftUIGIFPlayerView(gifName: "22")
+                .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .center)
 // MARK: - image Inside Circle
             //                Image("2")
             //                    .frame(width: 300, height: 200)
@@ -31,26 +32,26 @@ struct CompetitiveView: View {
             Text("Our prices are up to 30% cheaper \n        than a rental company")
                 .font(.custom("NeoSansStd-Regular", size: 13))
                 .padding()
-            HStack{
-                Image("red_circle_sel")
-                Image("red_circle_sel")
-                Image("red_circle_unsel")
-                Image("red_circle_unsel")
-                Image("red_circle_unsel")
-            }
-            .padding(.top,200)
-            .padding()
-            NavigationLink(destination: WiderAvailabilityView())
-            {
-                Text("SKIP")
-                    .font(.custom("NeoSansStd-Bold", size: 20))
-                    .foregroundColor(Color.gray)
-                    .padding(.bottom,1)
-            }
+//            HStack{
+//                Image("red_circle_sel")
+//                Image("red_circle_sel")
+//                Image("red_circle_unsel")
+//                Image("red_circle_unsel")
+//                Image("red_circle_unsel")
+//            }
+//            .padding(.top,200)
+//            .padding()
+//            NavigationLink(destination: WiderAvailabilityView())
+//            {
+//                Text("SKIP")
+//                    .font(.custom("NeoSansStd-Bold", size: 20))
+//                    .foregroundColor(Color.gray)
+//                    .padding(.bottom,1)
+//            }
         }
         
         // }
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+       // .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
         .navigationBarBackButtonHidden(true)
     }
 }

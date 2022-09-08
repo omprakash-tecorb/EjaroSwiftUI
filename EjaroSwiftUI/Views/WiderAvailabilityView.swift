@@ -19,6 +19,7 @@ struct WiderAvailabilityView: View {
                 .padding()
 // MARK: - GIF
             SwiftUIGIFPlayerView(gifName: "33")
+                .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .center)
             
 // MARK: - image Inside Circle
             //                  Image("3")
@@ -31,24 +32,24 @@ struct WiderAvailabilityView: View {
             Text("A greater selection of cars from \n          economic to luxury")
                 .font(.custom("NeoSansStd-Regular", size: 13))
                 .padding()
-            HStack{
-                Image("red_circle_sel")
-                Image("red_circle_sel")
-                Image("red_circle_sel")
-                Image("red_circle_unsel")
-                Image("red_circle_unsel")
-            }
-            .padding(.top,200)
-            .padding()
-            NavigationLink(destination: EasyAndSecureView())
-            {
-                Text("SKIP")
-                    .font(.custom("NeoSansStd-Bold", size: 20))
-                    .foregroundColor(Color.gray)
-            }
+//            HStack{
+//                Image("red_circle_sel")
+//                Image("red_circle_sel")
+//                Image("red_circle_sel")
+//                Image("red_circle_unsel")
+//                Image("red_circle_unsel")
+//            }
+//            .padding(.top,200)
+//            .padding()
+//            NavigationLink(destination: EasyAndSecureView())
+//            {
+//                Text("SKIP")
+//                    .font(.custom("NeoSansStd-Bold", size: 20))
+//                    .foregroundColor(Color.gray)
+//            }
          // }
          }
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+       // .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
         .navigationBarBackButtonHidden(true)
     }
 }

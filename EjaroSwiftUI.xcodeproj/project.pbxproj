@@ -35,6 +35,15 @@
 		1898CD9028BDD931009DEA49 /* Neo Sans Std-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8828BDD931009DEA49 /* Neo Sans Std-Regular.ttf */; };
 		1898CD9128BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */; };
 		1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1898CD9528BE0D9A009DEA49 /* LoginView.swift */; };
+		189CAFFA28C716000081F08C /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAFF928C716000081F08C /* ForgotPasswordView.swift */; };
+		189CAFFC28C759110081F08C /* OtpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAFFB28C759110081F08C /* OtpView.swift */; };
+		189CAFFE28C8765C0081F08C /* CommunityGuidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAFFD28C8765C0081F08C /* CommunityGuidView.swift */; };
+		189CB00028C8C3E30081F08C /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CAFFF28C8C3E20081F08C /* TabbarView.swift */; };
+		189CB00328C8C4580081F08C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00228C8C4580081F08C /* SearchView.swift */; };
+		189CB00528C8C4740081F08C /* MyCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00428C8C4740081F08C /* MyCarsView.swift */; };
+		189CB00728C8C4830081F08C /* BookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00628C8C4830081F08C /* BookingsView.swift */; };
+		189CB00928C8C4900081F08C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00828C8C4900081F08C /* MessageView.swift */; };
+		18EF040E28C5FB4F0078E8D1 /* RegistrationView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF040D28C5FB4F0078E8D1 /* RegistrationView4.swift */; };
 		18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308428BE4E7700BBB618 /* BackButton.swift */; };
 		18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */; };
 		18F1308928BE4E8600BBB618 /* Navigate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308828BE4E8600BBB618 /* Navigate.swift */; };
@@ -99,6 +108,15 @@
 		1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Arabic-Medium.ttf"; sourceTree = "<group>"; };
 		1898CD9228BDE359009DEA49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1898CD9528BE0D9A009DEA49 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		189CAFF928C716000081F08C /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		189CAFFB28C759110081F08C /* OtpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpView.swift; sourceTree = "<group>"; };
+		189CAFFD28C8765C0081F08C /* CommunityGuidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityGuidView.swift; sourceTree = "<group>"; };
+		189CAFFF28C8C3E20081F08C /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		189CB00228C8C4580081F08C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		189CB00428C8C4740081F08C /* MyCarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsView.swift; sourceTree = "<group>"; };
+		189CB00628C8C4830081F08C /* BookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsView.swift; sourceTree = "<group>"; };
+		189CB00828C8C4900081F08C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		18EF040D28C5FB4F0078E8D1 /* RegistrationView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView4.swift; sourceTree = "<group>"; };
 		18F1308428BE4E7700BBB618 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCustome.swift; sourceTree = "<group>"; };
 		18F1308828BE4E8600BBB618 /* Navigate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigate.swift; sourceTree = "<group>"; };
@@ -175,6 +193,7 @@
 				1898CD9228BDE359009DEA49 /* Info.plist */,
 				18190F4D28BCCF52003C14E0 /* EjaroSwiftUIApp.swift */,
 				18F1308328BE4E3900BBB618 /* HelpingClass */,
+				189CB00128C8C4330081F08C /* Home */,
 				18190F7928BCE894003C14E0 /* Views */,
 				18190F5128BCCF55003C14E0 /* Assets.xcassets */,
 				1898CD8128BDD931009DEA49 /* Fonts */,
@@ -221,9 +240,13 @@
 				18190F8228BCFA31003C14E0 /* SafeReliableView.swift */,
 				18F1309028BF2D5800BBB618 /* ScrollLeftRightView.swift */,
 				1898CD9528BE0D9A009DEA49 /* LoginView.swift */,
-				18F1309228C086B900BBB618 /* RegistrationView1.swift */,
 				18F1309628C09F4B00BBB618 /* RegistrationView2.swift */,
 				180AA0D828C36CD000A22717 /* Registration3.swift */,
+				18F1309228C086B900BBB618 /* RegistrationView1.swift */,
+				18EF040D28C5FB4F0078E8D1 /* RegistrationView4.swift */,
+				189CAFF928C716000081F08C /* ForgotPasswordView.swift */,
+				189CAFFB28C759110081F08C /* OtpView.swift */,
+				189CAFFD28C8765C0081F08C /* CommunityGuidView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,6 +276,18 @@
 				1898CD8928BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		189CB00128C8C4330081F08C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				189CAFFF28C8C3E20081F08C /* TabbarView.swift */,
+				189CB00228C8C4580081F08C /* SearchView.swift */,
+				189CB00428C8C4740081F08C /* MyCarsView.swift */,
+				189CB00628C8C4830081F08C /* BookingsView.swift */,
+				189CB00828C8C4900081F08C /* MessageView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		18F1308328BE4E3900BBB618 /* HelpingClass */ = {
@@ -542,20 +577,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EF040E28C5FB4F0078E8D1 /* RegistrationView4.swift in Sources */,
+				189CAFFA28C716000081F08C /* ForgotPasswordView.swift in Sources */,
 				18F1309528C0875E00BBB618 /* HexColor.swift in Sources */,
+				189CB00728C8C4830081F08C /* BookingsView.swift in Sources */,
+				189CB00528C8C4740081F08C /* MyCarsView.swift in Sources */,
 				18190F8128BCF8F6003C14E0 /* EasyAndSecureView.swift in Sources */,
 				18F1309728C09F4B00BBB618 /* RegistrationView2.swift in Sources */,
 				18190F5028BCCF52003C14E0 /* ContentView.swift in Sources */,
+				189CAFFC28C759110081F08C /* OtpView.swift in Sources */,
 				18F1309128BF2D5800BBB618 /* ScrollLeftRightView.swift in Sources */,
 				18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */,
 				18190F7B28BCE8BE003C14E0 /* SeemlessView.swift in Sources */,
+				189CB00928C8C4900081F08C /* MessageView.swift in Sources */,
 				18190F8328BCFA31003C14E0 /* SafeReliableView.swift in Sources */,
 				18190F7828BCDD96003C14E0 /* SelectLanguageView.swift in Sources */,
 				18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */,
 				18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */,
 				18F1309328C086B900BBB618 /* RegistrationView1.swift in Sources */,
+				189CB00328C8C4580081F08C /* SearchView.swift in Sources */,
 				18190F4E28BCCF52003C14E0 /* EjaroSwiftUIApp.swift in Sources */,
+				189CAFFE28C8765C0081F08C /* CommunityGuidView.swift in Sources */,
 				180AA0D928C36CD000A22717 /* Registration3.swift in Sources */,
+				189CB00028C8C3E30081F08C /* TabbarView.swift in Sources */,
 				18190F7D28BCF1B0003C14E0 /* CompetitiveView.swift in Sources */,
 				18F1308D28BE4E9400BBB618 /* gallerypicker.swift in Sources */,
 				18190F7F28BCF7CF003C14E0 /* WiderAvailabilityView.swift in Sources */,

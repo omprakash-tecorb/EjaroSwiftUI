@@ -36,3 +36,36 @@ struct CustomLabelTextfield :View
       //  .padding([.bottom,.top],10)
     }
 }
+
+struct CustomeInputField:View{
+    let imageName:String
+    let placeHoldertext:String
+    @Binding var text:String
+    
+    var body: some View
+    {
+        VStack
+        {
+            HStack{
+                Image(systemName: imageName)
+                    .resizable()
+                    .scaledToFit()
+                    .foregroundColor(Color.gray)
+                    .frame(width: 25, height: 25)
+                TextField(placeHoldertext,text: $text)
+                    
+            }
+            Divider()
+                .background(Color.gray)
+                
+        }
+        .padding()
+        
+    }
+    struct CustomeInputField_Preview:PreviewProvider{
+        static var previews: some View
+        {
+            CustomeInputField(imageName: "email_icon", placeHoldertext: "Email", text: .constant(""))
+        }
+    }
+}

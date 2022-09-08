@@ -19,15 +19,22 @@ struct RegistrationView2: View {
     var body: some View {
        
         VStack(){
-//            VStack
-//            {
+
+            HStack{
+                // MARK: - image Inside Circle
+                   
+                circleImage()
+            }
+            .frame(width: .infinity, height: 45)
+            .padding([.leading,.trailing],30)
+            .padding(.top,20)
+            
             Text("Please enter your details exactly as it appears on your ID")
                 .foregroundColor(Color(hex: 0x000000))
                 .font(.custom("NeoSansStd-Bold", size: 10))
-                .padding(.trailing,70)
-            
-            //}
-           // .padding()
+                .padding(.trailing,120)
+                .padding(.top,50)
+             
             //MARK: - ID Type
             VStack(alignment: .leading){
                 Text("ID Type")
@@ -123,11 +130,12 @@ struct RegistrationView2: View {
             Spacer()
             
             
-            NavigationLink(destination: RegistrationView1())
+            NavigationLink(destination: Registration3())
             {
-                Text("next")
-                    .frame(width: 500, height: 80, alignment: .center)
-                    .background(.red)
+                Text("Next")
+                    .frame(width: 500, height: 100, alignment: .center)
+                    .background(Color(hex: 0xb2020f))
+                    .foregroundColor(.white)
             }
          
         }
@@ -149,5 +157,41 @@ struct RegistrationView2_Previews: PreviewProvider {
            // .previewDevice("iPhone  13 Pro Max")
         
         
+    }
+}
+
+struct circleImage:View
+{
+    var body:some View
+    {
+        Text("1")
+            .frame(width: 20, height: 20)
+            .clipShape(Circle())
+            .shadow(radius: 10)
+            .overlay(Circle().stroke(Color(hex: 0xb2020f),                    lineWidth: 9))
+            .foregroundColor(.white)
+            .background(Color(hex: 0xb2020f))
+        Spacer()
+        VStack{
+            Color.black.frame(height: 5 / UIScreen.main.scale)
+        }
+    Text("2")
+        .frame(width: 20, height: 20)
+        .clipShape(Circle())
+        .shadow(radius: 10)
+        .overlay(Circle().stroke(Color(hex: 0xbCCCCCC),                    lineWidth: 9))
+        .foregroundColor(.white)
+        .background(Color(hex: 0xbCCCCCC))
+        Spacer()
+        VStack{
+            Color.black.frame(height: 4 / UIScreen.main.scale)
+        }
+    Text("3")
+        .frame(width: 20, height: 20)
+        .clipShape(Circle())
+        .shadow(radius: 10)
+        .overlay(Circle().stroke(Color(hex: 0xbCCCCCC),                    lineWidth: 9))
+        .foregroundColor(.white)
+        .background(Color(hex: 0xbCCCCCC))
     }
 }

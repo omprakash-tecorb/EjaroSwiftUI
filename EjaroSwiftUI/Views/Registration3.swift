@@ -6,8 +6,6 @@
 //
 
 import SwiftUI
-30144684368
-
 struct Registration3: View {
     @State var GCC:String = ""
     @Environment(\.dismiss) private var dismiss
@@ -15,11 +13,13 @@ struct Registration3: View {
         ScrollView()
         {
         VStack(){
+           
+            
            Text("Please enter your details exactly as it appears on your ID")
                 .padding(.leading,-100)
                 .frame( height: 32)
                 .font(.custom("NeoSansStd-Bold", size: 10))
-            
+            Spacer()
             VStack(alignment: .leading){
                 Text("ID Type")
                     .font(.custom("NeoSansStd-Bold", size: 13))
@@ -99,9 +99,12 @@ struct Registration3: View {
             Spacer()
             NavigationLink(destination: RegistrationView1())
             {
-                Text("next")
+                Text("Next")
                     .frame(width: 600, height: 80, alignment: .center)
-                    .background(.red)
+                    .background(Color(hex: 0xb2020f))
+                    .foregroundColor(.white)
+                    //.padding(.bottom,20)
+                   
                   
             }
         

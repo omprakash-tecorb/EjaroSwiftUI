@@ -22,17 +22,19 @@ struct RegistrationView1: View {
         //        {
         VStack()
         {
-            Text("fgbdb")
+          
             VStack(alignment: .leading)
             {
                
-          //  Text("Please enter your details exactly as it appears on your ID")
-//                .foregroundColor(Color(hex: 0x000000))
-//                .font(.custom("NeoSansStd-Bold", size: 10))
-//                .padding(.trailing,70)
-            
+            Text("Please enter your details exactly as it appears on your ID")
+                .foregroundColor(Color(hex: 0x000000))
+                .font(.custom("NeoSansStd-Bold", size: 10))
+                .padding(.trailing,80)
+                .padding(.top,100)
             }
-            .padding()
+            Spacer()
+           // .padding()
+          
            // .padding(.top,200)
 //MARK: - ID Type
             VStack(alignment: .leading){
@@ -149,11 +151,13 @@ struct RegistrationView1: View {
             .padding(.top,-30)
 //MARK: - Next
             Spacer()
-            NavigationLink(destination: Registration3())
+            NavigationLink(destination: RegistrationView4())
             {
-                Text("next")
-                    .frame(width: 500, height: 80, alignment: .center)
-                    .background(.red)
+                Text("Next")
+                    .frame(width: 500, height: 100, alignment: .center)
+                    .background(Color(hex: 0xb2020f))
+                    .foregroundColor(.white)
+                   
             }
          
         }

@@ -9,6 +9,8 @@ import SwiftUI
 
 struct LoginView: View {
     @State var textFieldEmail:String = ""
+    @State var index = 0
+    @State var moveData:Bool = false
     var body: some View {
        
         ZStack{
@@ -55,7 +57,7 @@ struct LoginView: View {
                        }
                         Text("")
                         .frame( height: 1, alignment: .center)
-                        .padding(.leading, 135)
+                        .padding(.leading, 155)
                         .padding(.trailing, 155)
                        
                         .background(.white)
@@ -91,8 +93,12 @@ struct LoginView: View {
                            .background(.white)
                            .padding()
                            //.frame( height: 1)
-                          
-                 NavigationLink(destination: RegistrationView1())
+                    
+                    Button(action:{
+                        self.index = 1
+                        self.moveData = true
+                        
+                    })
                     {
                         VStack{
                             Text("Forgot Your Password")
@@ -109,10 +115,17 @@ struct LoginView: View {
                                 .foregroundColor(Color.white)
                         }
                     }
+                    .sheet(isPresented: $moveData)
+                    {
+                        ForgotPasswordView()
+                            .ignoresSafeArea(.all)
+                    }
+                    
                 }
                 .padding(.top,-127)
                 
-
+                NavigationLink(destination: TabbarView())
+                {
                 Text("SignIn")
                     .padding(.trailing, 140)
                     .padding(.leading, 140)
@@ -120,16 +133,22 @@ struct LoginView: View {
                     .background(Color(hex: 0xb2020f))
                     .foregroundColor(Color.white)
                     .cornerRadius(10)
+                }
                 
                 HStack{
                     Text("Dont have an account?")
                         .padding(.leading,15)
-                    Text("an account?")
-                        .padding(.leading,-15)
-                        .font(.title3)
-                        .padding([.leading,.trailing], 20)
-                        .frame( minHeight: 45)
-                       
+                  //  NavigationLink(destination: RegistrationView2())
+                    NavigationLink(destination: CommunityGuidView())
+                    {
+                        Text("Register Now")
+                            .padding(.leading,-15)
+                            .font(.title3)
+                            .padding([.leading,.trailing], 20)
+                            .frame( minHeight: 45)
+                           
+                    }
+                   
                     
                 }
                
@@ -144,7 +163,7 @@ struct LoginView: View {
      
         }
        
-       // .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
         
     }
 }

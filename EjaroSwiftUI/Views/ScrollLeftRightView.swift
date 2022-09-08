@@ -9,39 +9,52 @@ import SwiftUI
 import SSSwiftUIGIFView
 
 struct ScrollLeftRightView: View {
+    init() {
+        UIPageControl.appearance().currentPageIndicatorTintColor = .gray
+        UIPageControl.appearance().pageIndicatorTintColor = .red
+    }
+    
     var body: some View {
-        TabView{
-            SeemlessView()
-            CompetitiveView()
-            WiderAvailabilityView()
-            EasyAndSecureView()
-            SafeReliableView()
-               }
-        .tabViewStyle(.page(indexDisplayMode: .never))
-//        HStack{
-//            Image("red_circle_sel")
-//            Image("red_circle_unsel")
-//            Image("red_circle_unsel")
-//            Image("red_circle_unsel")
-//            Image("red_circle_unsel")
-//        }
-//        .padding(.top,200)
-//        .padding()
-//        // .frame(width: 5, height: 5, alignment: .center)
-//        NavigationLink(destination: CompetitiveView())
-//        {
-//            Text("SKIP")
-//                .font(.custom("NeoSansStd-Bold", size: 20))
-//                .foregroundColor(Color.gray)
-//                .padding(.bottom , 1)
-//        }
-        // .tabViewStyle(.page)
-        //.indexViewStyle(.page(backgroundDisplayMode: .never))
+        VStack{
+            TabView{
+                SeemlessView()
+                CompetitiveView()
+                WiderAvailabilityView()
+                EasyAndSecureView()
+                SafeReliableView()
+            }
+            //.tabViewStyle(.page(indexDisplayMode: .never))
+            .tabViewStyle(.page)
+            
+            .padding(.bottom,20)
+           
+            NavigationLink(destination: LoginView())
+            {
+                Text("SKIP")
+                    .font(.custom("NeoSansStd-Bold", size: 20))
+                    .foregroundColor(Color.gray)
+                    .padding(.bottom , 10)
+            }
+
+        }
     }
 }
-
 struct ScrollLeftRightView_Previews: PreviewProvider {
     static var previews: some View {
         ScrollLeftRightView()
+    }
+}
+struct pagecontroll:View
+{
+    var body: some View
+    {
+        HStack{
+            Image("red_circle_sel")
+            Image("red_circle_unsel")
+            Image("red_circle_unsel")
+            Image("red_circle_unsel")
+            Image("red_circle_unsel")
+        }
+        .padding(.top,2)
     }
 }

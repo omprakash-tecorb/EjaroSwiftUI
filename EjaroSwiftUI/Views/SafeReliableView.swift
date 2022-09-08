@@ -18,6 +18,7 @@ struct SafeReliableView: View {
                     .padding()
     // MARK: - GIF
                 SwiftUIGIFPlayerView(gifName: "55")
+                    .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .center)
     // MARK: - image Inside Circle
                 //                Image("host_unsel")
                 //                    .scaledToFill()
@@ -30,15 +31,15 @@ struct SafeReliableView: View {
                 Text(" No more waiting in long lines,skip the counter\n with no paperwork and pay easily")
                     .font(.custom("NeoSansStd-Regular", size: 13))
                     .padding()
-                HStack{
-                    Image("red_circle_sel")
-                    Image("red_circle_sel")
-                    Image("red_circle_sel")
-                    Image("red_circle_sel")
-                    Image("red_circle_sel")
-                }
-                .padding(.top,200)
-                .padding()
+//                HStack{
+//                    Image("red_circle_sel")
+//                    Image("red_circle_sel")
+//                    Image("red_circle_sel")
+//                    Image("red_circle_sel")
+//                    Image("red_circle_sel")
+//                }
+//                .padding(.top,200)
+//                .padding()
                 NavigationLink(destination: LoginView())
                 {
                     Text("START")
@@ -49,6 +50,7 @@ struct SafeReliableView: View {
                         .background(Color(hex: 0xb2020f))
                         .cornerRadius(10)
                 }
+                .padding(.top,200)
                 
             }
             

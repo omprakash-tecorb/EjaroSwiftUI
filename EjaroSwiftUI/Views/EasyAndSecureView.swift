@@ -19,6 +19,7 @@ struct EasyAndSecureView: View {
                 .padding()
 // MARK: - GIF
             SwiftUIGIFPlayerView(gifName: "44")
+                .frame(width: UIScreen.main.bounds.width, height: 250, alignment: .center)
 // MARK: - image Inside Circle
             //                Image("km")
             //                    .scaledToFill()
@@ -31,26 +32,26 @@ struct EasyAndSecureView: View {
             Text(" No more waiting in long lines, skip the\ncounter with no paperwork and pay easily")
                 .font(.custom("NeoSansStd-Regular", size: 13))
                 .padding()
-            HStack{
-                Image("red_circle_sel")
-                Image("red_circle_sel")
-                Image("red_circle_sel")
-                Image("red_circle_sel")
-                Image("red_circle_unsel")
-            }
-            .padding(.top,200)
-            .padding()
-            NavigationLink(destination: SafeReliableView())
-            {
-                Text("SKIP")
-                    .font(.custom("NeoSansStd-Bold", size: 20))
-                    .foregroundColor(Color.gray)
-            }
+//            HStack{
+//                Image("red_circle_sel")
+//                Image("red_circle_sel")
+//                Image("red_circle_sel")
+//                Image("red_circle_sel")
+//                Image("red_circle_unsel")
+//            }
+//            .padding(.top,200)
+//            .padding()
+//            NavigationLink(destination: SafeReliableView())
+//            {
+//                Text("SKIP")
+//                    .font(.custom("NeoSansStd-Bold", size: 20))
+//                    .foregroundColor(Color.gray)
+//            }
             
         }
         
         //  }
-        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
+       // .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
         .navigationBarBackButtonHidden(true)
         
     }
