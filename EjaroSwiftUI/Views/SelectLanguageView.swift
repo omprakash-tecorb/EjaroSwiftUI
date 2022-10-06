@@ -29,6 +29,7 @@ struct SelectLanguageView: View {
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(.black,lineWidth: 0.5))
 //                        .padding()
                         .foregroundColor(Color.black)
+                        .padding()
                 }
                 
                 NavigationLink(destination: ScrollLeftRightView())
@@ -38,9 +39,11 @@ struct SelectLanguageView: View {
                         .frame( minHeight: 45)
                         .overlay(RoundedRectangle(cornerRadius: 10).stroke(.black,lineWidth: 0.5))
                         .foregroundColor(Color.black)
+                    
                 }
             }
             .padding(.bottom,60)
+            
         }
         
     }

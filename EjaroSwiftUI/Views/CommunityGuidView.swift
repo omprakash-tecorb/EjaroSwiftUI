@@ -9,37 +9,44 @@ import SwiftUI
 
 struct CommunityGuidView: View {
     var body: some View {
+        
+        
         VStack{
             GeometryReader{ geo in
-            VStack{
-                Image("landing_header_top")
-                    .resizable()
-                    .edgesIgnoringSafeArea(.all)
-                    .frame(width: geo.size.width, height: geo.size.height/3)
-                
-                GuideLines()
-              }
-               
-                VStack{
-                    Spacer()
-                     Text("I UNDERSTAND")
-                        .frame(width: geo.size.width, height: geo.size.height/30)
-                        .background(Color(hex: 0xbC00006))
-                            .foregroundColor(.white)
-                            .font(.custom("NeoSansStd-Bold", size: 13))
+                ScrollView() {
+                    VStack{
+                        Image("landing_header_top")
+                            .resizable()
+                            .frame(width: geo.size.width, height: geo.size.height/2.5)
+                            .scaledToFill()
+                        
+                        GuideLines()
+                    }
+                    
                 }
-              
-                   
+                
+                .edgesIgnoringSafeArea([.top, .bottom])
+                VStack{
+                    Spacer(minLength: 10)
+                    Text("I UNDERSTAND")
+                        .multilineTextAlignment(.center)
+                        .frame(width: geo.size.width, height: geo.size.height/15)
+                        .background(Color(hex: 0xbC00006))
+                        .foregroundColor(.white)
+                        .font(.custom("NeoSansStd-Bold", size: 13))
+                }
             }
-            
         }
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarHidden(true)
+        
     }
 }
 
 struct CommunityGuidView_Previews: PreviewProvider {
     static var previews: some View {
-        CommunityGuidView()
-          .previewDevice("iPhone 13 Pro Max")
+        //        CommunityGuidView()
+        //          .previewDevice("iPhone 13 Pro Max")
         CommunityGuidView()
             .previewDevice("iPhone 8")
         
@@ -47,7 +54,7 @@ struct CommunityGuidView_Previews: PreviewProvider {
 }
 
 struct GuideLines: View {
-  
+    
     var body: some View {
         VStack(alignment: .leading){
             Text("Ejaro’s Community Guidelines")
@@ -94,7 +101,7 @@ struct GuideLines: View {
             .padding(1)
             
             ClickToAgree()
-           
+            
             
         }
         .padding()
@@ -161,7 +168,7 @@ struct ClickToAgree: View {
                             .foregroundColor(Color(hex: 0xb000000))
                             .font(.custom("NeoSansStd-Regular", size: 12))
                     }
-                 
+                    
                 })
                 Spacer()
                 Text("Read more")
@@ -191,7 +198,7 @@ struct ClickToAgree: View {
                             .foregroundColor(Color(hex: 0xb000000))
                             .font(.custom("NeoSansStd-Regular", size: 12))
                     }
-                   
+                    
                 })
                 Spacer()
                 Text("Read more")
@@ -221,7 +228,7 @@ struct ClickToAgree: View {
                             .foregroundColor(Color(hex: 0xb000000))
                             .font(.custom("NeoSansStd-Regular", size: 12))
                     }
-                   
+                    
                 })
                 Spacer()
                 Text("Read more")

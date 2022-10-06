@@ -26,6 +26,7 @@
 		18190F9D28BDD1C2003C14E0 /* 55.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9828BDD1C2003C14E0 /* 55.gif */; };
 		18190F9E28BDD1C2003C14E0 /* 44.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9928BDD1C2003C14E0 /* 44.gif */; };
 		18190F9F28BDD1C2003C14E0 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9A28BDD1C2003C14E0 /* 11.gif */; };
+		18790EDF28E5CC97001FDD82 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18790EDE28E5CC96001FDD82 /* Model.swift */; };
 		1898CD8A28BDD931009DEA49 /* Neo Sans Std-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */; };
 		1898CD8B28BDD931009DEA49 /* Century Gothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */; };
 		1898CD8C28BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8428BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf */; };
@@ -98,6 +99,7 @@
 		18190F9828BDD1C2003C14E0 /* 55.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 55.gif; sourceTree = "<group>"; };
 		18190F9928BDD1C2003C14E0 /* 44.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 44.gif; sourceTree = "<group>"; };
 		18190F9A28BDD1C2003C14E0 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		18790EDE28E5CC96001FDD82 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Std-Bold.ttf"; sourceTree = "<group>"; };
 		1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic-Bold.ttf"; sourceTree = "<group>"; };
 		1898CD8428BDD931009DEA49 /* Neo Sans Arabic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Arabic-Bold.ttf"; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */,
 				18F1308428BE4E7700BBB618 /* BackButton.swift */,
 				18F1309428C0875E00BBB618 /* HexColor.swift */,
+				18790EDE28E5CC96001FDD82 /* Model.swift */,
 			);
 			path = HelpingClass;
 			sourceTree = "<group>";
@@ -602,6 +605,7 @@
 				189CB00028C8C3E30081F08C /* TabbarView.swift in Sources */,
 				18190F7D28BCF1B0003C14E0 /* CompetitiveView.swift in Sources */,
 				18F1308D28BE4E9400BBB618 /* gallerypicker.swift in Sources */,
+				18790EDF28E5CC97001FDD82 /* Model.swift in Sources */,
 				18190F7F28BCF7CF003C14E0 /* WiderAvailabilityView.swift in Sources */,
 				1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */,
 				18F1308928BE4E8600BBB618 /* Navigate.swift in Sources */,

@@ -12,37 +12,30 @@ struct TabbarView: View {
     @State var isSelectedCars = false
     @State var isSelectedKey = false
     @State var isSelectedMessage = false
-    
+    @State var tab = 1
     
     var body: some View {
         TabView{
-           
+         
             SearchView()
-           
             .tabItem
                 {
-                    
-                 
-                    let image  = isSelectedSearch == true ? "seach_sel" : "seach_unsel"
-                     Image(image)
-                   // let text = isSelectedSearch == true ? "\(.foregroundColor(.red))" :  "\(.foregroundColor(.black))"
-                      //   Text(text)
-                        
-                        
-//                    }
-//                    else{
-//                        Image("seach_unsel")
-//                         Text("Search")
-//                            .foregroundColor(.black)
-//                        
-//             
-//                    }
-//                  
-             }
+//                    if tab == 1
+//                    {
+                        Image("seach_unsel")
+                        Text("Search")
+                            .tint(Color.red)
+                            .foregroundColor(Color(.red))
+                       
+               // }
+                }
             MyCarsView()
                 .tabItem {
+
                     Image("host_unsel")
                     Text("My Cars")
+
+
                 }
             BookingsView()
                 .tabItem
@@ -58,6 +51,10 @@ struct TabbarView: View {
             }
         }
         .edgesIgnoringSafeArea(.all)
+        .accentColor(.red)
+        
+       
+       
     }
 }
 

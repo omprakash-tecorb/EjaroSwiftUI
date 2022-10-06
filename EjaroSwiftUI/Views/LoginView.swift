@@ -27,7 +27,7 @@ struct LoginView: View {
                     Text("Welcome back!")
                     .foregroundColor(.white)
                     .font(.custom("NeoSansStd-Regular", size: 25))
-                    .padding(.top,-255)
+                    .padding(.top,-250)
                   
                     
                     Text("Login to your account")
