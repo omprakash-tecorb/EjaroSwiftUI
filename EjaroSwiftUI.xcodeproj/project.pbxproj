@@ -44,6 +44,7 @@
 		189CB00528C8C4740081F08C /* MyCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00428C8C4740081F08C /* MyCarsView.swift */; };
 		189CB00728C8C4830081F08C /* BookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00628C8C4830081F08C /* BookingsView.swift */; };
 		189CB00928C8C4900081F08C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00828C8C4900081F08C /* MessageView.swift */; };
+		18D75E2028FA7C8400E8BEC1 /* FirnitureUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */; };
 		18EF040E28C5FB4F0078E8D1 /* RegistrationView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF040D28C5FB4F0078E8D1 /* RegistrationView4.swift */; };
 		18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308428BE4E7700BBB618 /* BackButton.swift */; };
 		18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */; };
@@ -118,6 +119,7 @@
 		189CB00428C8C4740081F08C /* MyCarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarsView.swift; sourceTree = "<group>"; };
 		189CB00628C8C4830081F08C /* BookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsView.swift; sourceTree = "<group>"; };
 		189CB00828C8C4900081F08C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirnitureUi.swift; sourceTree = "<group>"; };
 		18EF040D28C5FB4F0078E8D1 /* RegistrationView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView4.swift; sourceTree = "<group>"; };
 		18F1308428BE4E7700BBB618 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCustome.swift; sourceTree = "<group>"; };
@@ -288,6 +290,7 @@
 				189CB00428C8C4740081F08C /* MyCarsView.swift */,
 				189CB00628C8C4830081F08C /* BookingsView.swift */,
 				189CB00828C8C4900081F08C /* MessageView.swift */,
+				18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -596,6 +599,7 @@
 				18190F8328BCFA31003C14E0 /* SafeReliableView.swift in Sources */,
 				18190F7828BCDD96003C14E0 /* SelectLanguageView.swift in Sources */,
 				18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */,
+				18D75E2028FA7C8400E8BEC1 /* FirnitureUi.swift in Sources */,
 				18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */,
 				18F1309328C086B900BBB618 /* RegistrationView1.swift in Sources */,
 				189CB00328C8C4580081F08C /* SearchView.swift in Sources */,

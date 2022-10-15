@@ -97,9 +97,9 @@ struct RegistrationView4: View {
             }
             Spacer()
             VStack{
-                NavigationLink(destination: OtpView())
+                NavigationLink(destination: FirnitureUi())
                 {
-                    Text("botttom")
+                    Text("Submit")
                     
                 }
                 .frame(maxWidth:600,maxHeight: 80)

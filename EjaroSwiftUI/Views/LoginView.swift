@@ -138,8 +138,8 @@ struct LoginView: View {
                 HStack{
                     Text("Dont have an account?")
                         .padding(.leading,15)
-                  //  NavigationLink(destination: RegistrationView2())
-                    NavigationLink(destination: CommunityGuidView())
+                    NavigationLink(destination: RegistrationView2())
+                  //  NavigationLink(destination: CommunityGuidView())
                     {
                         Text("Register Now")
                             .padding(.leading,-15)
