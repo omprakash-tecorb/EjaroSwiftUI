@@ -12,6 +12,7 @@ struct ContentView: View {
         NavigationView{
             
             NavigationLink(destination: SelectLanguageView())
+           // LazyVstack())
             {
                 ZStack{
                     

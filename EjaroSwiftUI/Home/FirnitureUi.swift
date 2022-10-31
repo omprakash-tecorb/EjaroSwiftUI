@@ -14,9 +14,14 @@ struct FirnitureUi: View {
         {
             ZStack{
                 Color.red
-                    .edgesIgnoringSafeArea(.all)
-                ScrollView
+                .edgesIgnoringSafeArea(.all)
+           
+             ScrollView
+            // List
                 {
+//                    ZStack{
+//                        Color.red
+//                        .edgesIgnoringSafeArea(.all)
                     VStack(alignment: .leading){
                         headerPart()
                         
@@ -32,8 +37,12 @@ struct FirnitureUi: View {
                         
                     }
                 }
+                  //  .cornerRadius(10)
             }
+               // .edgesIgnoringSafeArea(.all)
+               
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
@@ -202,7 +211,7 @@ struct popular:View
 
 struct showprice:View
 {
-    var priceArr = ["10","20","30","40","50","60"]
+    var priceArr = ["10","20","30","40","50","60","70","80","90"]
     let Index:Int
     var body: some View{
         VStack{
@@ -237,10 +246,13 @@ struct Best:View{
             {
                 HStack(){
                     ForEach(0..<imageArr.count){index in
-                        Image("\(imageArr[index])")
-                            .resizable()
-                            .frame(width: 200,height: 200)
-                            .cornerRadius(10.0)
+                      NavigationLink(destination: DiscriptionView(receiveImage: (imageArr[index])))
+                        {
+                            Image("\(imageArr[index])")
+                                .resizable()
+                                .frame(width: 200,height: 200)
+                                .cornerRadius(10.0)
+                        }
                     }
                 }
                 

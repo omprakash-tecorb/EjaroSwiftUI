@@ -129,8 +129,9 @@ struct RegistrationView2: View {
             .padding()
             Spacer()
             
-            
-            NavigationLink(destination: Registration3())
+          
+           NavigationLink(destination: Registration3())
+           // NavigationLink(destination:   FirnitureUi())
             {
                 Text("Next")
                     .frame(width: 500, height: 100, alignment: .center)

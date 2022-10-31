@@ -45,6 +45,9 @@
 		189CB00728C8C4830081F08C /* BookingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00628C8C4830081F08C /* BookingsView.swift */; };
 		189CB00928C8C4900081F08C /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CB00828C8C4900081F08C /* MessageView.swift */; };
 		18D75E2028FA7C8400E8BEC1 /* FirnitureUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */; };
+		18D75E2228FA955E00E8BEC1 /* DiscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D75E2128FA955E00E8BEC1 /* DiscriptionView.swift */; };
+		18D75E2428FAA41500E8BEC1 /* Cornersradious.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D75E2328FAA41500E8BEC1 /* Cornersradious.swift */; };
+		18D75E2628FABF4200E8BEC1 /* LazyVstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D75E2528FABF4200E8BEC1 /* LazyVstack.swift */; };
 		18EF040E28C5FB4F0078E8D1 /* RegistrationView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF040D28C5FB4F0078E8D1 /* RegistrationView4.swift */; };
 		18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308428BE4E7700BBB618 /* BackButton.swift */; };
 		18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */; };
@@ -120,6 +123,9 @@
 		189CB00628C8C4830081F08C /* BookingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsView.swift; sourceTree = "<group>"; };
 		189CB00828C8C4900081F08C /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirnitureUi.swift; sourceTree = "<group>"; };
+		18D75E2128FA955E00E8BEC1 /* DiscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscriptionView.swift; sourceTree = "<group>"; };
+		18D75E2328FAA41500E8BEC1 /* Cornersradious.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cornersradious.swift; sourceTree = "<group>"; };
+		18D75E2528FABF4200E8BEC1 /* LazyVstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVstack.swift; sourceTree = "<group>"; };
 		18EF040D28C5FB4F0078E8D1 /* RegistrationView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView4.swift; sourceTree = "<group>"; };
 		18F1308428BE4E7700BBB618 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		18F1308628BE4E7E00BBB618 /* TextFieldCustome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldCustome.swift; sourceTree = "<group>"; };
@@ -251,6 +257,7 @@
 				189CAFF928C716000081F08C /* ForgotPasswordView.swift */,
 				189CAFFB28C759110081F08C /* OtpView.swift */,
 				189CAFFD28C8765C0081F08C /* CommunityGuidView.swift */,
+				18D75E2528FABF4200E8BEC1 /* LazyVstack.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +298,7 @@
 				189CB00628C8C4830081F08C /* BookingsView.swift */,
 				189CB00828C8C4900081F08C /* MessageView.swift */,
 				18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */,
+				18D75E2128FA955E00E8BEC1 /* DiscriptionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -305,6 +313,7 @@
 				18F1308428BE4E7700BBB618 /* BackButton.swift */,
 				18F1309428C0875E00BBB618 /* HexColor.swift */,
 				18790EDE28E5CC96001FDD82 /* Model.swift */,
+				18D75E2328FAA41500E8BEC1 /* Cornersradious.swift */,
 			);
 			path = HelpingClass;
 			sourceTree = "<group>";
@@ -585,6 +594,7 @@
 			files = (
 				18EF040E28C5FB4F0078E8D1 /* RegistrationView4.swift in Sources */,
 				189CAFFA28C716000081F08C /* ForgotPasswordView.swift in Sources */,
+				18D75E2428FAA41500E8BEC1 /* Cornersradious.swift in Sources */,
 				18F1309528C0875E00BBB618 /* HexColor.swift in Sources */,
 				189CB00728C8C4830081F08C /* BookingsView.swift in Sources */,
 				189CB00528C8C4740081F08C /* MyCarsView.swift in Sources */,
@@ -593,12 +603,14 @@
 				18190F5028BCCF52003C14E0 /* ContentView.swift in Sources */,
 				189CAFFC28C759110081F08C /* OtpView.swift in Sources */,
 				18F1309128BF2D5800BBB618 /* ScrollLeftRightView.swift in Sources */,
+				18D75E2628FABF4200E8BEC1 /* LazyVstack.swift in Sources */,
 				18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */,
 				18190F7B28BCE8BE003C14E0 /* SeemlessView.swift in Sources */,
 				189CB00928C8C4900081F08C /* MessageView.swift in Sources */,
 				18190F8328BCFA31003C14E0 /* SafeReliableView.swift in Sources */,
 				18190F7828BCDD96003C14E0 /* SelectLanguageView.swift in Sources */,
 				18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */,
+				18D75E2228FA955E00E8BEC1 /* DiscriptionView.swift in Sources */,
 				18D75E2028FA7C8400E8BEC1 /* FirnitureUi.swift in Sources */,
 				18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */,
 				18F1309328C086B900BBB618 /* RegistrationView1.swift in Sources */,
