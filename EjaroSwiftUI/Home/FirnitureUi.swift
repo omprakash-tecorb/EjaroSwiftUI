@@ -14,14 +14,14 @@ struct FirnitureUi: View {
         {
             ZStack{
                 Color.red
-                .edgesIgnoringSafeArea(.all)
-           
-             ScrollView
-            // List
+                    .edgesIgnoringSafeArea(.all)
+                
+                ScrollView
+                // List
                 {
-//                    ZStack{
-//                        Color.red
-//                        .edgesIgnoringSafeArea(.all)
+                    //                    ZStack{
+                    //                        Color.red
+                    //                        .edgesIgnoringSafeArea(.all)
                     VStack(alignment: .leading){
                         headerPart()
                         
@@ -37,10 +37,10 @@ struct FirnitureUi: View {
                         
                     }
                 }
-                  //  .cornerRadius(10)
+                //  .cornerRadius(10)
             }
-               // .edgesIgnoringSafeArea(.all)
-               
+            // .edgesIgnoringSafeArea(.all)
+            
         }
         .navigationBarBackButtonHidden(true)
     }
@@ -119,7 +119,8 @@ struct searchbar:View{
             
             Button(action: {})
             {
-                Image("Scan")
+                Image("scan2")
+                    .frame(width: 25,height: 25)
                     .padding(.all,13)
                     .scaledToFit()
                     .background(Color.gray)
@@ -140,21 +141,86 @@ struct firnitureTypeList:View
     {
         ScrollView(.horizontal,showsIndicators: false)
         {
-            HStack( spacing: 5){
+            HStack( spacing: 25){
                 ForEach(0..<listArr.count){list in
-                    Button(action: {isselected = list})
+                    if list == 0
                     {
-                        //Text("\(listArr[list])")
-                        if #available(iOS 16.0, *) {
-                            selectedTextColorChange(isselect: isselected == list, arraylist: listArr[list])
-                                .fontWeight(.bold)
-                                .padding(.horizontal)
+                        NavigationLink(destination: AllTypeView())
+                        {
+                            Text(listArr[list])
                                 .foregroundColor(Color.white)
-                        } else {
-                            // Fallback on earlier versions
+                        }
+                    }
+                    else if list == 1
+                    { NavigationLink(destination: ChairView())
+                        {
+                            Text(listArr[list])
+                                .foregroundColor(Color.black)
                         }
                         
                     }
+                    else if list == 2
+                    {
+                        NavigationLink(destination: TableView())
+                            {
+                                Text(listArr[list])
+                                    .foregroundColor(Color.black)
+                            }
+                            
+                    }
+                    else if list == 3
+                    {
+                        NavigationLink(destination: SofaView())
+                            {
+                                Text(listArr[list])
+                                    .foregroundColor(Color.black)
+                            }
+                    }
+                    else if list == 4
+                    {
+                        NavigationLink(destination: BedView())
+                            {
+                                Text(listArr[list])
+                                    .foregroundColor(Color.black)
+                            }
+                    }
+                    else if list == 5
+                    {
+                        NavigationLink(destination: DiwanView())
+                            {
+                                Text(listArr[list])
+                                    .foregroundColor(Color.black)
+                            }
+                    }
+
+                    else
+                    {
+                        Text(listArr[list])
+                    }
+                    
+                    
+                    //     Button(action: {isselected = list})
+                    //                    {
+                    //                        if isselected == 0  {
+                    //                                NavigationLink(destination: AllTypeView())
+                    //                                {
+                    //                                    Text("\(listArr[list])")
+                    //                                .foregroundColor(Color.white)
+                    //                                }
+                    //                            }
+                    //                            else
+                    //                            {
+                    //                                Text("\(listArr[list])")
+                    //                            .foregroundColor(Color.blue)
+                    //                            }
+                    //
+                    ////                            selectedTextColorChange(isselect: isselected == list, arraylist: listArr[list])
+                    ////                                .fontWeight(.bold)
+                    ////                                .padding(.horizontal)
+                    ////                                .foregroundColor(Color.white)
+                    //
+                    //                    }
+                    
                     
                 }
                 
@@ -182,6 +248,7 @@ struct selectedTextColorChange:View{
 }
 struct popular:View
 {
+    var imageArr = ["bed6","di1","di4","sofa2","tab6","chair4"]
     var body: some View
     {
         VStack(alignment: .leading){
@@ -192,14 +259,11 @@ struct popular:View
             ScrollView(.horizontal,showsIndicators: false)
             {
                 HStack{
-                    ForEach(0..<10){ index in
-                        showprice(Index: index)
-                        
-                            .frame(width: 200,height: 200)
-                            .background(Color.white)
-                            .cornerRadius(10.0)
+                        ForEach(0..<imageArr.count){ index in
+                           
+                            showprice(Index: index)
+                        }
                     }
-                }
                 
             }
             
@@ -210,21 +274,24 @@ struct popular:View
 }
 
 struct showprice:View
-{
+{ var imageArr = ["bed6","di1","di4","sofa2","tab6","chair4"]
     var priceArr = ["10","20","30","40","50","60","70","80","90"]
+   
     let Index:Int
     var body: some View{
-        VStack{
+       VStack{
             ForEach(0..<priceArr.count){ index in
                 if Index == index
                 {
-                    Image("chair_2")
+                    Image(imageArr[index])
                         .resizable()
-                    
-                    Text("$\(priceArr[index])")
+                  Text("$\(priceArr[index])")
                 }
             }
         }
+       .frame(width: 200,height: 200)
+       .background(Color.white)
+       .cornerRadius(10.0)
         
     }
 }
@@ -246,7 +313,7 @@ struct Best:View{
             {
                 HStack(){
                     ForEach(0..<imageArr.count){index in
-                      NavigationLink(destination: DiscriptionView(receiveImage: (imageArr[index])))
+                        NavigationLink(destination: DiscriptionView(receiveImage: (imageArr[index])))
                         {
                             Image("\(imageArr[index])")
                                 .resizable()

@@ -9,8 +9,6 @@ import SwiftUI
 
 struct CommunityGuidView: View {
     var body: some View {
-        
-        
         VStack{
             GeometryReader{ geo in
                 ScrollView() {

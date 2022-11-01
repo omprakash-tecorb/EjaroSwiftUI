@@ -26,6 +26,13 @@
 		18190F9D28BDD1C2003C14E0 /* 55.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9828BDD1C2003C14E0 /* 55.gif */; };
 		18190F9E28BDD1C2003C14E0 /* 44.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9928BDD1C2003C14E0 /* 44.gif */; };
 		18190F9F28BDD1C2003C14E0 /* 11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18190F9A28BDD1C2003C14E0 /* 11.gif */; };
+		181F1C622910F0800011F129 /* ChairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C612910F0800011F129 /* ChairView.swift */; };
+		181F1C642910F26D0011F129 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C632910F26D0011F129 /* TableView.swift */; };
+		181F1C662910F42D0011F129 /* SofaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C652910F42D0011F129 /* SofaView.swift */; };
+		181F1C682910F6C20011F129 /* BedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C672910F6C20011F129 /* BedView.swift */; };
+		181F1C6A2910F75A0011F129 /* DiwanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C692910F75A0011F129 /* DiwanView.swift */; };
+		181F1C6C29111EE00011F129 /* FilterView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C6B29111EE00011F129 /* FilterView .swift */; };
+		182EFC3D2910084E00750522 /* AllTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EFC3C2910084E00750522 /* AllTypeView.swift */; };
 		18790EDF28E5CC97001FDD82 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18790EDE28E5CC96001FDD82 /* Model.swift */; };
 		1898CD8A28BDD931009DEA49 /* Neo Sans Std-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */; };
 		1898CD8B28BDD931009DEA49 /* Century Gothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */; };
@@ -103,6 +110,13 @@
 		18190F9828BDD1C2003C14E0 /* 55.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 55.gif; sourceTree = "<group>"; };
 		18190F9928BDD1C2003C14E0 /* 44.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 44.gif; sourceTree = "<group>"; };
 		18190F9A28BDD1C2003C14E0 /* 11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 11.gif; sourceTree = "<group>"; };
+		181F1C612910F0800011F129 /* ChairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChairView.swift; sourceTree = "<group>"; };
+		181F1C632910F26D0011F129 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		181F1C652910F42D0011F129 /* SofaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaView.swift; sourceTree = "<group>"; };
+		181F1C672910F6C20011F129 /* BedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedView.swift; sourceTree = "<group>"; };
+		181F1C692910F75A0011F129 /* DiwanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiwanView.swift; sourceTree = "<group>"; };
+		181F1C6B29111EE00011F129 /* FilterView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterView .swift"; sourceTree = "<group>"; };
+		182EFC3C2910084E00750522 /* AllTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTypeView.swift; sourceTree = "<group>"; };
 		18790EDE28E5CC96001FDD82 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Std-Bold.ttf"; sourceTree = "<group>"; };
 		1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic-Bold.ttf"; sourceTree = "<group>"; };
@@ -299,6 +313,13 @@
 				189CB00828C8C4900081F08C /* MessageView.swift */,
 				18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */,
 				18D75E2128FA955E00E8BEC1 /* DiscriptionView.swift */,
+				182EFC3C2910084E00750522 /* AllTypeView.swift */,
+				181F1C612910F0800011F129 /* ChairView.swift */,
+				181F1C652910F42D0011F129 /* SofaView.swift */,
+				181F1C632910F26D0011F129 /* TableView.swift */,
+				181F1C672910F6C20011F129 /* BedView.swift */,
+				181F1C692910F75A0011F129 /* DiwanView.swift */,
+				181F1C6B29111EE00011F129 /* FilterView .swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -598,23 +619,28 @@
 				18F1309528C0875E00BBB618 /* HexColor.swift in Sources */,
 				189CB00728C8C4830081F08C /* BookingsView.swift in Sources */,
 				189CB00528C8C4740081F08C /* MyCarsView.swift in Sources */,
+				181F1C622910F0800011F129 /* ChairView.swift in Sources */,
+				181F1C6A2910F75A0011F129 /* DiwanView.swift in Sources */,
 				18190F8128BCF8F6003C14E0 /* EasyAndSecureView.swift in Sources */,
 				18F1309728C09F4B00BBB618 /* RegistrationView2.swift in Sources */,
 				18190F5028BCCF52003C14E0 /* ContentView.swift in Sources */,
 				189CAFFC28C759110081F08C /* OtpView.swift in Sources */,
 				18F1309128BF2D5800BBB618 /* ScrollLeftRightView.swift in Sources */,
 				18D75E2628FABF4200E8BEC1 /* LazyVstack.swift in Sources */,
+				181F1C642910F26D0011F129 /* TableView.swift in Sources */,
 				18F1308528BE4E7700BBB618 /* BackButton.swift in Sources */,
 				18190F7B28BCE8BE003C14E0 /* SeemlessView.swift in Sources */,
 				189CB00928C8C4900081F08C /* MessageView.swift in Sources */,
 				18190F8328BCFA31003C14E0 /* SafeReliableView.swift in Sources */,
 				18190F7828BCDD96003C14E0 /* SelectLanguageView.swift in Sources */,
 				18F1308B28BE4E8C00BBB618 /* Validation.swift in Sources */,
+				182EFC3D2910084E00750522 /* AllTypeView.swift in Sources */,
 				18D75E2228FA955E00E8BEC1 /* DiscriptionView.swift in Sources */,
 				18D75E2028FA7C8400E8BEC1 /* FirnitureUi.swift in Sources */,
 				18F1308728BE4E7E00BBB618 /* TextFieldCustome.swift in Sources */,
 				18F1309328C086B900BBB618 /* RegistrationView1.swift in Sources */,
 				189CB00328C8C4580081F08C /* SearchView.swift in Sources */,
+				181F1C682910F6C20011F129 /* BedView.swift in Sources */,
 				18190F4E28BCCF52003C14E0 /* EjaroSwiftUIApp.swift in Sources */,
 				189CAFFE28C8765C0081F08C /* CommunityGuidView.swift in Sources */,
 				180AA0D928C36CD000A22717 /* Registration3.swift in Sources */,
@@ -624,6 +650,8 @@
 				18790EDF28E5CC97001FDD82 /* Model.swift in Sources */,
 				18190F7F28BCF7CF003C14E0 /* WiderAvailabilityView.swift in Sources */,
 				1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */,
+				181F1C6C29111EE00011F129 /* FilterView .swift in Sources */,
+				181F1C662910F42D0011F129 /* SofaView.swift in Sources */,
 				18F1308928BE4E8600BBB618 /* Navigate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
