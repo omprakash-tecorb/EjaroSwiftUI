@@ -36,3 +36,15 @@ struct Company: Decodable {
     var bs: String
 
 }
+
+struct iosDevice: Decodable,Identifiable
+{
+    var id: Int
+    var modelName: String
+    var code: String
+//    init(data: [String: AnyObject]){
+//        self.modelName = data["modelName"] as! String
+//        self.code = data["code"] as! String
+//    }
+    
+}

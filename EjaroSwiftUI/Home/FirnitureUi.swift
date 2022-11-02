@@ -162,37 +162,37 @@ struct firnitureTypeList:View
                     else if list == 2
                     {
                         NavigationLink(destination: TableView())
-                            {
-                                Text(listArr[list])
-                                    .foregroundColor(Color.black)
-                            }
-                            
+                        {
+                            Text(listArr[list])
+                                .foregroundColor(Color.black)
+                        }
+                        
                     }
                     else if list == 3
                     {
                         NavigationLink(destination: SofaView())
-                            {
-                                Text(listArr[list])
-                                    .foregroundColor(Color.black)
-                            }
+                        {
+                            Text(listArr[list])
+                                .foregroundColor(Color.black)
+                        }
                     }
                     else if list == 4
                     {
                         NavigationLink(destination: BedView())
-                            {
-                                Text(listArr[list])
-                                    .foregroundColor(Color.black)
-                            }
+                        {
+                            Text(listArr[list])
+                                .foregroundColor(Color.black)
+                        }
                     }
                     else if list == 5
                     {
                         NavigationLink(destination: DiwanView())
-                            {
-                                Text(listArr[list])
-                                    .foregroundColor(Color.black)
-                            }
+                        {
+                            Text(listArr[list])
+                                .foregroundColor(Color.black)
+                        }
                     }
-
+                    
                     else
                     {
                         Text(listArr[list])
@@ -248,6 +248,7 @@ struct selectedTextColorChange:View{
 }
 struct popular:View
 {
+
     var imageArr = ["bed6","di1","di4","sofa2","tab6","chair4"]
     var body: some View
     {
@@ -259,13 +260,16 @@ struct popular:View
             ScrollView(.horizontal,showsIndicators: false)
             {
                 HStack{
-                        ForEach(0..<imageArr.count){ index in
-                           
+                    ForEach(0..<imageArr.count){ index in
+                        NavigationLink(destination: PopularDescriptionView(indx: "\(index)"))
+                        {
                             showprice(Index: index)
                         }
                     }
+                }
                 
             }
+            
             
         }
         .padding(.horizontal)
@@ -279,19 +283,20 @@ struct showprice:View
    
     let Index:Int
     var body: some View{
-       VStack{
+        VStack{
             ForEach(0..<priceArr.count){ index in
                 if Index == index
                 {
                     Image(imageArr[index])
                         .resizable()
-                  Text("$\(priceArr[index])")
+                    Text("$\(priceArr[index])")
+                
                 }
             }
         }
-       .frame(width: 200,height: 200)
-       .background(Color.white)
-       .cornerRadius(10.0)
+        .frame(width: 200,height: 200)
+        .background(Color.white)
+        .cornerRadius(10.0)
         
     }
 }

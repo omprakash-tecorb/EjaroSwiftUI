@@ -33,6 +33,8 @@
 		181F1C6A2910F75A0011F129 /* DiwanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C692910F75A0011F129 /* DiwanView.swift */; };
 		181F1C6C29111EE00011F129 /* FilterView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F1C6B29111EE00011F129 /* FilterView .swift */; };
 		182EFC3D2910084E00750522 /* AllTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EFC3C2910084E00750522 /* AllTypeView.swift */; };
+		187348FE291242DB0041308E /* AppleDevice.json in Resources */ = {isa = PBXBuildFile; fileRef = 187348FD291242DB0041308E /* AppleDevice.json */; };
+		18734900291286D00041308E /* PopularDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187348FF291286D00041308E /* PopularDescriptionView.swift */; };
 		18790EDF28E5CC97001FDD82 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18790EDE28E5CC96001FDD82 /* Model.swift */; };
 		1898CD8A28BDD931009DEA49 /* Neo Sans Std-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */; };
 		1898CD8B28BDD931009DEA49 /* Century Gothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */; };
@@ -117,6 +119,8 @@
 		181F1C692910F75A0011F129 /* DiwanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiwanView.swift; sourceTree = "<group>"; };
 		181F1C6B29111EE00011F129 /* FilterView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterView .swift"; sourceTree = "<group>"; };
 		182EFC3C2910084E00750522 /* AllTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTypeView.swift; sourceTree = "<group>"; };
+		187348FD291242DB0041308E /* AppleDevice.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppleDevice.json; sourceTree = "<group>"; };
+		187348FF291286D00041308E /* PopularDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDescriptionView.swift; sourceTree = "<group>"; };
 		18790EDE28E5CC96001FDD82 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1898CD8228BDD931009DEA49 /* Neo Sans Std-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Neo Sans Std-Bold.ttf"; sourceTree = "<group>"; };
 		1898CD8328BDD931009DEA49 /* Century Gothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic-Bold.ttf"; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 		18190F4C28BCCF52003C14E0 /* EjaroSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				187348FD291242DB0041308E /* AppleDevice.json */,
 				1898CD9228BDE359009DEA49 /* Info.plist */,
 				18190F4D28BCCF52003C14E0 /* EjaroSwiftUIApp.swift */,
 				18F1308328BE4E3900BBB618 /* HelpingClass */,
@@ -312,6 +317,7 @@
 				189CB00628C8C4830081F08C /* BookingsView.swift */,
 				189CB00828C8C4900081F08C /* MessageView.swift */,
 				18D75E1F28FA7C8400E8BEC1 /* FirnitureUi.swift */,
+				187348FF291286D00041308E /* PopularDescriptionView.swift */,
 				18D75E2128FA955E00E8BEC1 /* DiscriptionView.swift */,
 				182EFC3C2910084E00750522 /* AllTypeView.swift */,
 				181F1C612910F0800011F129 /* ChairView.swift */,
@@ -481,6 +487,7 @@
 				1898CD8B28BDD931009DEA49 /* Century Gothic-Bold.ttf in Resources */,
 				18190F9C28BDD1C2003C14E0 /* 33.gif in Resources */,
 				18190F9E28BDD1C2003C14E0 /* 44.gif in Resources */,
+				187348FE291242DB0041308E /* AppleDevice.json in Resources */,
 				18190F9F28BDD1C2003C14E0 /* 11.gif in Resources */,
 				18190F5528BCCF55003C14E0 /* Preview Assets.xcassets in Resources */,
 				1898CD9128BDD931009DEA49 /* Neo Sans Arabic-Medium.ttf in Resources */,
@@ -649,6 +656,7 @@
 				18F1308D28BE4E9400BBB618 /* gallerypicker.swift in Sources */,
 				18790EDF28E5CC97001FDD82 /* Model.swift in Sources */,
 				18190F7F28BCF7CF003C14E0 /* WiderAvailabilityView.swift in Sources */,
+				18734900291286D00041308E /* PopularDescriptionView.swift in Sources */,
 				1898CD9628BE0D9A009DEA49 /* LoginView.swift in Sources */,
 				181F1C6C29111EE00011F129 /* FilterView .swift in Sources */,
 				181F1C662910F42D0011F129 /* SofaView.swift in Sources */,
