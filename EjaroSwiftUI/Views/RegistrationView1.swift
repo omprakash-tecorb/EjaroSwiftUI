@@ -167,7 +167,7 @@ struct RegistrationView1: View {
         .navigationBarTitle(Text("REGISTRATION").foregroundColor(.blue),displayMode: .inline)
         .edgesIgnoringSafeArea(.all)
         .navigationBarBackButtonHidden(true) // Hide default button
-        .navigationBarItems(leading: NavBackButton(dismiss: self.dismiss))
+        .navigationBarItems(leading: NavBackButton(dismiss: self.dismiss,text: "",image: "back_arrow_auth"))
         //}
     }
 }

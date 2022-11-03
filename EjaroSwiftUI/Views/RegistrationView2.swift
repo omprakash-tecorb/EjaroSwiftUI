@@ -148,7 +148,7 @@ struct RegistrationView2: View {
         .navigationBarTitle(Text("REGISTRATION"),displayMode: .inline)
         .edgesIgnoringSafeArea(.all)
         .navigationBarBackButtonHidden(true) // Hide default button
-        .navigationBarItems(leading: NavBackButton(dismiss: self.dismiss))
+        .navigationBarItems(leading: NavBackButton(dismiss: self.dismiss,text: "Back",image: "back_arrow_auth"))
     }
 }
 

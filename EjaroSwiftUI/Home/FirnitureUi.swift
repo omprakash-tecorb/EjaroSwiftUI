@@ -110,7 +110,7 @@ struct searchbar:View{
                 Image("Search")
                     .scaledToFit()
                     .padding(.leading,2)
-                TextField("search the Firniture",text: $text)
+                TextField("Search the Furniture",text: $text)
             }
             .padding(.all,15)
             .padding(.trailing,8)
@@ -335,3 +335,4 @@ struct Best:View{
         
     }
 }
+
