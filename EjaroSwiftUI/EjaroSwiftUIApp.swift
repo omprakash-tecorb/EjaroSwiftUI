@@ -6,6 +6,14 @@
 //
 
 import SwiftUI
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        
+       // GADMobileAds.sharedInstance().start(completionHandler: nil) // << here !!
+        UIScrollView.appearance().bounces = false
+        return true
+    }
+}
 
 @main
 struct EjaroSwiftUIApp: App {

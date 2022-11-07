@@ -60,11 +60,15 @@ struct headerPart:View{
         HStack{
             Button(action: {})
             {
-                Image("menu")
-                    .padding()
-                    .background(Color.white)
-                    .scaledToFit()
-                    .cornerRadius(10.0)
+               NavigationLink(destination: SideMenu())
+                {
+                    Image("menu")
+                        .padding()
+                        .background(Color.white)
+                        .scaledToFit()
+                        .cornerRadius(10.0)
+                }
+               
             }
             Spacer()
             
